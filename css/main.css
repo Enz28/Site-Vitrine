@@ -1,0 +1,96 @@
+:root {
+  --pale-blue: #ebf3fa;
+  --marine-blue: #234179;
+  --dark-red: #af443f;
+  --dark-blue: #253a62;
+}
+body {
+  padding: 30px;
+  background: url("Images/blue-pale.svg");
+  background-repeat: no-repeat;
+  background-position: -20px -20px;
+}
+header {
+  justify-content: right;
+  background: rgba(255, 255, 255, 0.329);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.218);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 30px;
+  color: var(--marine-blue);
+}
+header ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--marine-blue);
+}
+nav,
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0px;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+}
+.logo {
+  font-size: xx-large;
+  font-weight: bold;
+  padding-left: 120px;
+}
+#signup {
+  border-radius: 30px;
+  padding: 5px 15px 5px 15px;
+  margin-right: 20px;
+  background: rgba(255, 255, 255, 0.329);
+}
+.nav a:hover {
+  background: rgba(255, 255, 255, 0.329);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.218);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 30px;
+  padding: 15px;
+}
+span {
+  font-weight: bold;
+}
+h1 {
+  font-weight: normal;
+}
+h2 {
+  font-weight: bold;
+}
+.content {
+  padding-top: 50px;
+  width: 30%;
+  font-size: larger;
+}
+.container {
+  display: flex;
+  margin-left: 120px;
+  gap: 50px;
+  color: var(--marine-blue);
+}
+.picture {
+  width: 45%;
+}
+.picture img {
+  width: 150%;
+}
+#button {
+  background: rgba(255, 255, 255, 0.329);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.218);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 30px;
+  padding: 15px;
+}
+
+#button:hover {
+  padding: 16px;
+  box-shadow: 0 17px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

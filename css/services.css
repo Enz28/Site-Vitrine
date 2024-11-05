@@ -1,0 +1,77 @@
+:root {
+  --pale-blue: #ebf3fa;
+  --marine-blue: #234179;
+  --dark-red: #af443f;
+  --dark-blue: #253a62;
+}
+body {
+  padding: 30px;
+}
+header {
+  justify-content: right;
+  background: rgba(255, 255, 255, 0.329);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.218);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 30px;
+  color: var(--marine-blue);
+}
+header ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--marine-blue);
+}
+nav,
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+}
+.logo {
+  font-size: xx-large;
+  font-weight: bold;
+  padding-left: 120px;
+}
+.signup {
+  border-radius: 30px;
+  padding: 5px 15px 5px 15px;
+  margin-right: 20px;
+  background: rgba(0, 0, 0, 0.329);
+}
+.nav a:hover {
+  background: rgba(255, 255, 255, 0.329);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.218);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 30px;
+  padding: 15px;
+}
+.container {
+  padding: 30px;
+  color: var(--marine-blue);
+}
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 40px;
+}
+.subject {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+  justify-content: space-around;
+}
+img {
+  width: 100%;
+}
+.website,
+.SEO,
+.digital {
+  width: 30%;
+}
